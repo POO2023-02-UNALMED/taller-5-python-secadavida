@@ -24,11 +24,11 @@ class Animal:
 
 	@staticmethod
 	def totalPorTipo():
-		return "Mamiferos: " + str(zooAnimales.mamifero.Mamifero.cantidadMamiferos()) + "\n" + \
-		"Aves: " + str(zooAnimales.ave.Ave.cantidadAves()) + "\n" + \
-		"Reptiles: " + str(zooAnimales.reptil.Reptil.cantidadReptiles()) + "\n" + \
-		"Peces: " + str(zooAnimales.pez.Pez.cantidadPeces()) + "\n" + \
-		"Anfibios: " + str(zooAnimales.anfibio.Anfibio.cantidadAnfibios())
+		return "Mamiferos : " + str(zooAnimales.mamifero.Mamifero.cantidadMamiferos()) + "\n" + \
+		"Aves : " + str(zooAnimales.ave.Ave.cantidadAves()) + "\n" + \
+		"Reptiles : " + str(zooAnimales.reptil.Reptil.cantidadReptiles()) + "\n" + \
+		"Peces : " + str(zooAnimales.pez.Pez.cantidadPeces()) + "\n" + \
+		"Anfibios : " + str(zooAnimales.anfibio.Anfibio.cantidadAnfibios())
 
 	def toString(self) -> str:
 		string = "Mi nombre es " + str(self._nombre) + ", tengo una edad de " + str(self._edad) + \
