@@ -26,7 +26,7 @@ class Reptil(Animal):
 
 	@classmethod
 	def crearSerpiente(cls, nombre, edad, genero):
-		cls.iguanas += 1
+		cls.serpientes += 1
 		return cls(nombre, edad, "jungla", genero, "blanco", 1)
 
 	def getColorEscamas(self):
