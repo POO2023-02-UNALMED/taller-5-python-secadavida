@@ -22,6 +22,7 @@ class Animal:
 	def movimiento(self):
 		return "desplazarse"
 
+	@staticmethod
 	def totalPorTipo():
 		return "Mamiferos: " + str(zooAnimales.mamifero.Mamifero.cantidadMamiferos()) + "\n" + \
 		"Aves: " + str(zooAnimales.ave.Ave.cantidadAves()) + "\n" + \
@@ -29,7 +30,7 @@ class Animal:
 		"Peces: " + str(zooAnimales.pez.Pez.cantidadPeces()) + "\n" + \
 		"Anfibios: " + str(zooAnimales.anfibio.Anfibio.cantidadAnfibios())
 
-	def __str__(self) -> str:
+	def toString(self) -> str:
 		string = "Mi nombre es " + self._nombre + ", tengo una edad de " + self._edad + \
 		", habito en " + self._habitat + " y mi genero es " + self._genero
 
