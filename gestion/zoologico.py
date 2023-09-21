@@ -31,9 +31,9 @@ class Zoologico:
 		self._ubicacion = ubicacion
 
 	@classmethod
-	def getZonas(cls):
+	def getZona(cls):
 		return cls._zonas
 
 	@classmethod
-	def setZonas(cls, zonas):
+	def setZona(cls, zonas):
 		cls._zonas = zonas
